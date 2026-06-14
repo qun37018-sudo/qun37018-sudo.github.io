@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :
+og_image                 : "qun-chen-profile.jpeg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Qun Chen"
-  avatar           :
+  avatar           : "qun-chen-profile-600.jpeg"
   bio              : "Associate Research Fellow @ <a style='color:#1565c0; font-weight:700;' href='https://www.xmuh.com/'>The First Affiliated Hospital of Xiamen University</a><br><span style='font-size:0.9em;'>Clinical multi-omics · Biomedical AI</span><br><span style='font-size:0.82em; color:#595959;'>Disease trajectories · Translational data science</span>"
   location         : "Xiamen, China"
   employer         :
