@@ -1,0 +1,154 @@
+---
+layout: null
+permalink: /cv/
+redirect_from:
+  - /resume
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Qun Chen</title>
+<meta name="description" content="Academic CV of Qun Chen, Associate Research Fellow at The First Affiliated Hospital of Xiamen University.">
+<link rel="canonical" href="https://qun37018-sudo.github.io/cv/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CV — Qun Chen">
+<meta property="og:description" content="Clinical multi-omics, biomedical AI, and translational data science.">
+<meta property="og:url" content="https://qun37018-sudo.github.io/cv/">
+<link rel="icon" href="/images/favicon.ico">
+<meta name="robots" content="index,follow">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f7f9fc;color:#1a2332;line-height:1.7}
+a{color:#1565c0;text-decoration:none}
+a:hover{text-decoration:underline}
+.site-masthead{background:#fff;box-shadow:0 2px 12px rgba(0,0,0,.06);position:sticky;top:0;z-index:200}
+.site-masthead::after{content:'';display:block;height:3px;background:linear-gradient(to right,#1565c0 0%,#00897b 55%,#e65100 100%)}
+.masthead-inner{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:56px}
+.masthead-title{font-weight:800;font-size:1.05em;color:#1a2332!important;text-decoration:none!important}
+.masthead-nav{display:flex;gap:2px;align-items:center}
+.masthead-nav a{font-weight:600;font-size:.88em;color:#333!important;text-decoration:none!important;padding:6px 10px;border-radius:6px;transition:color .2s,background .2s}
+.masthead-nav a:hover{color:#1565c0!important;background:#f0f4ff}
+.masthead-nav .pdf-dl{background:#1565c0;color:#fff!important;border-radius:6px;font-weight:700;margin-left:6px}
+.masthead-nav .pdf-dl:hover{background:#1976d2!important;color:#fff!important}
+.cv-hero{background:linear-gradient(-45deg,#0d1b2a,#1a3a5c,#00897b,#0a2540);background-size:400% 400%;animation:gradientShift 14s ease infinite;padding:48px 24px 40px;text-align:center;color:#fff}
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.cv-name{font-size:clamp(2em,5vw,3em);font-weight:900;margin-bottom:8px}
+.cv-role{font-size:1em;color:#dbeafe;margin-bottom:18px;font-weight:500}
+.cv-contact{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:18px}
+.cv-contact a{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:#e3f2fd!important;padding:5px 14px;border-radius:20px;font-size:.82em;font-weight:600;text-decoration:none!important}
+.cv-badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.cv-badge{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.15);color:#b3d9ff;padding:3px 12px;border-radius:12px;font-size:.76em;font-weight:600}
+.cv-body{max-width:980px;margin:0 auto;padding:36px 24px 60px;display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:start}
+.main-section,.sidebar-card{background:#fff;border-radius:12px;border:1.5px solid #e0e8f0;padding:20px 22px;margin-bottom:18px}
+.sec-title{font-size:.72em;font-weight:800;text-transform:uppercase;letter-spacing:.10em;color:#1565c0;margin:0 0 14px;padding-bottom:6px;border-bottom:2px solid #1565c0}
+.item{padding:12px 0;border-bottom:1px solid #eef0f4}
+.item:last-child{border-bottom:none}
+.item-title{font-weight:800;color:#1a2332}
+.item-meta{font-size:.82em;color:#595959;margin-top:2px}
+.item-desc{font-size:.86em;color:#444;margin-top:6px;line-height:1.6}
+.pub-item{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid #eef0f4;align-items:flex-start}
+.pub-item:last-child{border-bottom:none}
+.pub-badge{display:inline-block;padding:3px 9px;border-radius:5px;font-size:.68em;font-weight:900;letter-spacing:.02em;white-space:nowrap;line-height:1.4;flex-shrink:0;margin-top:2px;background:#1565c0;color:#fff}
+.pub-title{font-weight:700;font-size:.91em;color:#1a2332;line-height:1.4}
+.pub-authors{font-size:.79em;color:#6b7280;margin-top:2px}
+.pub-authors strong{color:#1a2332;font-weight:700}
+.skill-tag{display:inline-block;background:#e8f4fd;color:#0d47a1;border:1px solid #b3d4f7;border-radius:6px;padding:3px 10px;font-size:.78em;font-weight:600;margin:3px}
+.stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.stat-item{text-align:center;background:#f0f4ff;border-radius:8px;padding:12px 8px}
+.stat-num{font-size:1.5em;font-weight:900;color:#1565c0;line-height:1}
+.stat-lbl{font-size:.70em;color:#595959;margin-top:4px;line-height:1.35}
+footer{background:#0d1b2a;color:#8fb9d8;text-align:center;padding:22px;font-size:.83em}
+@media(max-width:720px){.cv-body{grid-template-columns:1fr}.masthead-nav a{font-size:.78em;padding:5px 6px}.masthead-title{font-size:.95em}.masthead-nav .pdf-dl{display:none}.pub-item{display:block}.pub-badge{margin-bottom:6px}}
+@media (prefers-reduced-motion: reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}.cv-hero{animation:none!important}}
+</style>
+</head>
+<body>
+<header class="site-masthead">
+  <div class="masthead-inner">
+    <a class="masthead-title" href="/">Qun Chen</a>
+    <nav class="masthead-nav" aria-label="CV navigation">
+      <a href="/">Home</a>
+      <a href="/publications/">Publications</a>
+      <a href="/contact/">Contact</a>
+      <a class="pdf-dl" href="/files/CV.pdf">PDF</a>
+    </nav>
+  </div>
+</header>
+
+<section class="cv-hero">
+  <div class="cv-name">Qun Chen, PhD</div>
+  <div class="cv-role">Associate Research Fellow · The First Affiliated Hospital of Xiamen University</div>
+  <div class="cv-contact">
+    <a href="mailto:chenquns@xmu.edu.cn">chenquns@xmu.edu.cn</a>
+    <a href="https://orcid.org/0009-0002-8921-7697">ORCID: 0009-0002-8921-7697</a>
+    <a href="/files/CV.pdf">Download PDF</a>
+  </div>
+  <div class="cv-badges">
+    <span class="cv-badge">Clinical multi-omics</span>
+    <span class="cv-badge">Biomedical AI</span>
+    <span class="cv-badge">Disease trajectory modeling</span>
+    <span class="cv-badge">Translational data science</span>
+  </div>
+</section>
+
+<main class="cv-body">
+  <div>
+    <section class="main-section">
+      <h2 class="sec-title">Research Interests</h2>
+      <p class="item-desc">My research sits at the interface of clinical multi-omics, biomedical AI, and translational data science. I build interpretable machine-learning and statistical models that connect large-scale molecular signatures to disease trajectories, clinical outcomes, and biological mechanisms.</p>
+    </section>
+
+    <section class="main-section">
+      <h2 class="sec-title">Positions</h2>
+      <div class="item"><div class="item-title">The First Affiliated Hospital of Xiamen University</div><div class="item-meta">Associate Research Fellow · Aug. 2023 - Present · Xiamen, China</div><div class="item-desc">Affiliation: Xiamen Cell Therapy Research Center & Xiamen University School of Medicine. Research focus: clinical multi-omics, cardiovascular disease trajectory modeling, and medical AI.</div></div>
+      <div class="item"><div class="item-title">University of California, Berkeley</div><div class="item-meta">Visiting PhD Student · Oct. 2018 - Sep. 2019 · Berkeley, CA, USA</div><div class="item-desc">Host: Professor Ting Xu.</div></div>
+    </section>
+
+    <section class="main-section">
+      <h2 class="sec-title">Education</h2>
+      <div class="item"><div class="item-title">Tsinghua University</div><div class="item-meta">PhD in Biomedical Engineering · Sep. 2017 - Dec. 2022 · Shenzhen, China</div><div class="item-desc">Dissertation: Molecular detection technologies for rapid infectious disease diagnosis and biomarker discovery.</div></div>
+      <div class="item"><div class="item-title">University of Chinese Academy of Sciences</div><div class="item-meta">MSc in Bioengineering · Sep. 2013 - Jan. 2017 · Shanghai, China</div></div>
+      <div class="item"><div class="item-title">Anhui Medical University</div><div class="item-meta">BSc in Food Quality and Safety · Sep. 2009 - Jun. 2013 · Hefei, China</div></div>
+    </section>
+
+    <section class="main-section">
+      <h2 class="sec-title">Selected Publications</h2>
+      <div class="pub-item"><span class="pub-badge">2026</span><div><div class="pub-title">Development and validation of a machine learning-based diagnostic system for 22 pediatric respiratory pathogens</div><div class="pub-authors">Su D, <strong>Chen Q*</strong>, Xu R, et al. <em>npj Digital Medicine</em>. doi:10.1038/s41746-026-02818-9.</div></div></div>
+      <div class="pub-item"><span class="pub-badge">2026</span><div><div class="pub-title">Metabolomic Atlas of Cardiovascular Diseases: Mapping Shared and Specific Signatures</div><div class="pub-authors">Yang J, Ning W, Xu R, et al., <strong>Chen Q†</strong>. <em>JACC: Advances</em>, 5(5):102742.</div></div></div>
+      <div class="pub-item"><span class="pub-badge">2026</span><div><div class="pub-title">Deep visual multi-omics reveals intra-tumor heterogeneity of gene expression and immunophenotype in colorectal cancer</div><div class="pub-authors">Lei S, Ning W, Zhang H, <strong>Chen Q*</strong>, et al. <em>Science Bulletin</em>.</div></div></div>
+      <div class="pub-item"><span class="pub-badge">2023</span><div><div class="pub-title">CRISPR Cas12-based field-deployable system for rapid detection of synthetic DNA sequence of the monkeypox virus genome</div><div class="pub-authors"><strong>Chen Q*</strong>, Gul I*, Liu C, et al. <em>Journal of Medical Virology</em>, 95(1):e28385.</div></div></div>
+      <div class="pub-item"><span class="pub-badge">2018</span><div><div class="pub-title">TiO2 nanoparticles cause mitochondrial dysfunction, activate inflammatory responses, and attenuate phagocytosis in macrophages</div><div class="pub-authors"><strong>Chen Q*</strong>, Wang N*, Zhu M, et al. <em>Redox Biology</em>, 15:266-276.</div></div></div>
+    </section>
+
+    <section class="main-section">
+      <h2 class="sec-title">Patents & Funding</h2>
+      <div class="item"><div class="item-title">Brain age prediction based on deep learning and metabolomics data</div><div class="item-meta">CN202411303281.8 · 2025</div></div>
+      <div class="item"><div class="item-title">Cardiovascular age prediction based on deep learning and metabolic profiling</div><div class="item-meta">CN202411384982.9 · 2024</div></div>
+      <div class="item"><div class="item-title">Fujian Provincial Natural Science Foundation</div><div class="item-meta">PI · Grant No. 2025J08313 · May 2025 - Apr. 2028</div><div class="item-desc">Maternal chronic stress, neural precursor cell differentiation, and the Ncam1-MAPK signaling pathway.</div></div>
+    </section>
+  </div>
+
+  <aside>
+    <section class="sidebar-card">
+      <h2 class="sec-title">Highlights</h2>
+      <div class="stat-grid">
+        <div class="stat-item"><div class="stat-num">134,500</div><div class="stat-lbl">Pathog-PDx children</div></div>
+        <div class="stat-item"><div class="stat-num">244,567</div><div class="stat-lbl">UKB participants</div></div>
+        <div class="stat-item"><div class="stat-num">87</div><div class="stat-lbl">CVD phenotypes</div></div>
+        <div class="stat-item"><div class="stat-num">2,900</div><div class="stat-lbl">Plasma proteins</div></div>
+      </div>
+    </section>
+    <section class="sidebar-card">
+      <h2 class="sec-title">Skills</h2>
+      <span class="skill-tag">Python</span><span class="skill-tag">R</span><span class="skill-tag">PyTorch</span><span class="skill-tag">TensorFlow</span><span class="skill-tag">XGBoost</span><span class="skill-tag">Survival analysis</span><span class="skill-tag">Mendelian randomization</span><span class="skill-tag">Mediation analysis</span><span class="skill-tag">scRNA-seq</span><span class="skill-tag">Spatial omics</span><span class="skill-tag">CRISPR-Cas12/13</span>
+    </section>
+  </aside>
+</main>
+
+<footer>
+  Qun Chen · Clinical multi-omics · Biomedical AI · Xiamen University
+</footer>
+</body>
+</html>

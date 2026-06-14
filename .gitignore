@@ -1,0 +1,14 @@
+_site/
+.bundle/
+vendor/
+Gemfile.lock
+.jekyll-cache/
+.sass-cache/
+
+
+
+
+
+# macOS
+.DS_Store
+**/.DS_Store

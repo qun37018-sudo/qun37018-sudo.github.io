@@ -1,0 +1,16 @@
+# Main navigation
+main:
+  - title: "Research"
+    url: /#research
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Patents"
+    url: /#patents
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Contact"
+    url: /contact/
