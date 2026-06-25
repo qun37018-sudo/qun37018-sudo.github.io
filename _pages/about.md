@@ -288,13 +288,10 @@ May 2025 - Apr. 2028. Project: Study on Maternal Chronic Stress Inducing Neural 
 Differentiation Disorders via the Ncam1-MAPK Signaling Pathway.
 </p>
 
-<h2 id="training" class="section-header">Positions & Education</h2>
+<h2 id="training" class="section-header">Position & Doctoral Training</h2>
 <div class="timeline">
   <div class="timeline-item"><div class="timeline-year">Aug. 2023 - Present</div><div class="timeline-title">The First Affiliated Hospital of Xiamen University</div><div class="timeline-desc">Associate Research Fellow, Xiamen Cell Therapy Research Center & Xiamen University School of Medicine.</div></div>
   <div class="timeline-item"><div class="timeline-year">Sep. 2017 - Dec. 2022</div><div class="timeline-title">Tsinghua University</div><div class="timeline-desc">PhD in Biomedical Engineering. Dissertation: Molecular detection technologies for rapid infectious disease diagnosis and biomarker discovery.</div></div>
-  <div class="timeline-item"><div class="timeline-year">Oct. 2018 - Sep. 2019</div><div class="timeline-title">University of California, Berkeley</div><div class="timeline-desc">Visiting PhD Student hosted by Professor Ting Xu.</div></div>
-  <div class="timeline-item"><div class="timeline-year">Sep. 2013 - Jan. 2017</div><div class="timeline-title">University of Chinese Academy of Sciences</div><div class="timeline-desc">MSc in Bioengineering.</div></div>
-  <div class="timeline-item"><div class="timeline-year">Sep. 2009 - Jun. 2013</div><div class="timeline-title">Anhui Medical University</div><div class="timeline-desc">BSc in Food Quality and Safety.</div></div>
 </div>
 
 <h2 id="skills" class="section-header">Technical Skills</h2>
