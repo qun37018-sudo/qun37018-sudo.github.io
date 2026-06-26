@@ -48,6 +48,16 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
+
+        {% if page.collection == 'publications' %}
+          <div class="pub-page-actions">
+            {% if page.topic %}<span class="pub-page-topic">{{ page.topic }}</span>{% endif %}
+            {% if page.paperurl and page.paperurl != blank %}
+              <a class="pub-page-btn" href="{{ page.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
+            {% endif %}
+            <a class="pub-page-btn secondary" href="{{ base_path }}/publications/">All Publications</a>
+          </div>
+        {% endif %}
     
         </header>
       {% endunless %}
