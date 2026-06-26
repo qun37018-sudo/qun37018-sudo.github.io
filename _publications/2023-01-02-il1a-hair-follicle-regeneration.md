@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2023-01-02-il1a-hair-follicle-regeneration
 date: 2023-01-02
 venue: "Inflammation and Regeneration"
+topic: "Mechanistic biology"
 paperurl: ""
 citation: "Yang G, Chen H, Chen Q, et al. Injury-induced interleukin-1 alpha promotes Lgr5 hair follicle stem cells de novo regeneration via regenerative microenvironment. Inflammation and Regeneration. 2023;43(1):14."
 ---

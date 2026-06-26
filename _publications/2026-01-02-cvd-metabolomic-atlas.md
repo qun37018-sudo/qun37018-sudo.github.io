@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2026-01-02-cvd-metabolomic-atlas
 date: 2026-01-02
 venue: "JACC: Advances"
+topic: "Multi-omics"
 paperurl: "https://doi.org/10.1016/j.jacadv.2026.102742"
 citation: "Yang J, Ning W, Xu R, Guo Y, He A, Fan J, Wang Y, Li X, Chen Q. Metabolomic Atlas of Cardiovascular Diseases: Mapping Shared and Specific Signatures. JACC: Advances. 2026;5(5):102742."
 ---

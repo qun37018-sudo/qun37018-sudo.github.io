@@ -193,12 +193,12 @@ body.dark-mode .stat-label { color: #8b949e !important; }
 
 <div class="quick-nav">
   <span class="qn-label">Jump to</span>
-  <a href="#research">Research</a>
-  <a href="#publications">Publications</a>
-  <a href="#patents">Patents</a>
-  <a href="#funding">Funding</a>
-  <a href="#training">Training</a>
-  <a href="#skills">Skills</a>
+  <a href="#research" data-qn="research">Research</a>
+  <a href="#publications" data-qn="publications">Publications</a>
+  <a href="#patents" data-qn="patents">Patents</a>
+  <a href="#funding" data-qn="funding">Funding</a>
+  <a href="#training" data-qn="training">Training</a>
+  <a href="#skills" data-qn="skills">Skills</a>
 </div>
 
 <p class="tagline">
@@ -301,3 +301,30 @@ Differentiation Disorders via the Ncam1-MAPK Signaling Pathway.
   <span>Mediation analysis</span><span>Plasma proteomics</span><span>Metabolomics</span>
   <span>scRNA-seq</span><span>Spatial omics</span><span>CRISPR-Cas12/13 diagnostics</span>
 </div>
+
+<script>
+(function(){
+  var sections = ['research','publications','patents','funding','training','skills'];
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.quick-nav a[data-qn]'));
+  if (!navLinks.length || !('IntersectionObserver' in window)) return;
+
+  function setActive(id) {
+    navLinks.forEach(function(link) {
+      link.classList.toggle('qn-active', link.dataset.qn === id);
+    });
+  }
+
+  var current = '';
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) current = entry.target.id;
+    });
+    if (current) setActive(current);
+  }, { rootMargin: '-20% 0px -68% 0px', threshold: 0 });
+
+  sections.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) observer.observe(el);
+  });
+})();
+</script>

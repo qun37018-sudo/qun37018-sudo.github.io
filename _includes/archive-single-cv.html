@@ -6,10 +6,15 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="list__item">
+{% assign pub_topic = post.topic | default: "Other" %}
+
+<div class="list__item pub-filter-item"
+     data-topic="{{ pub_topic | slugify }}"
+     data-search="{{ title | strip_html | escape }} {{ post.venue | escape }} {{ post.citation | strip_html | escape }} {{ pub_topic | escape }}">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="pub-cv-entry">
       {% if post.venue %}<span class="pub-cv-venue">{{ post.venue }}</span>{% endif %}
+      {% if pub_topic %}<span class="pub-cv-topic">{{ pub_topic }}</span>{% endif %}
       <div class="pub-cv-title">
         {% if post.paperurl != blank %}
           <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
